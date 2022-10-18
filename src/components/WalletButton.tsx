@@ -94,10 +94,10 @@ const WalletButtonWrapper = ({
 const OldWalletVersionWarning = (): JSX.Element => {
   const warningText = (
     <Link
-      href="https://github.com/aptos-labs/aptos-core/releases/"
+      href="https://github.com/bitindi/bitindi-core/releases/"
       target="_blank"
     >
-      You are using an old wallet version, please install the latest Aptos
+      You are using an old wallet version, please install the latest Bitindi
       Wallet extension.
     </Link>
   );
