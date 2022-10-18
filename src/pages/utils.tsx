@@ -154,7 +154,7 @@ export function isHex(text: string) {
 }
 
 // replicate on-chain logic is_voting_closed()
-// https://github.com/aptos-labs/aptos-core/blob/main/aptos-move/framework/aptos-framework/sources/voting.move
+// https://github.com/bitindi/bitindi-core/blob/main/bitindi-move/framework/bitindi-framework/sources/voting.move
 export function isVotingClosed(proposal: Proposal): boolean {
   let expirationSecs = ensureMillisecondTimestamp(proposal.expiration_secs);
   return canBeResolvedEarly(proposal) || expirationSecs - Date.now() < 0;
@@ -178,7 +178,7 @@ function canBeResolvedEarly(proposal: Proposal): boolean {
 }
 
 // replicate on-chain logic get_proposal_state()
-// https://github.com/aptos-labs/aptos-core/blob/main/aptos-move/framework/aptos-framework/sources/voting.move
+// https://github.com/bitindi-labs/bitindi-core/blob/main/bitindi-move/framework/bitindi-framework/sources/voting.move
 function getProposalState(proposal: Proposal): ProposalVotingState {
   if (isVotingClosed(proposal)) {
     let yesVotes = parseInt(proposal.yes_votes);
