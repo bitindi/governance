@@ -17,20 +17,12 @@ export function ProposalContent({proposal}: ProposalContentProps): JSX.Element {
       }
     >
       <ContentRow title="Proposal Hash" text={proposal.execution_hash} />
-      <ContentRow
-        title="Source Code"
-        text="LINK TO SOURCE CODE"
-        link={proposal.proposal_metadata.source_code_url}
-      />
+      
       <ContentRow
         title="Description"
         text={proposal.proposal_metadata.description}
       />
-      <ContentRow
-        title="Discussion"
-        text="LINK TO DISCUSSION"
-        link={proposal.proposal_metadata.discussion_url}
-      />
+     
     </Stack>
   );
 }
