@@ -4,7 +4,7 @@ import {Box, Container, Link, Typography, useTheme} from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 
 import {ReactComponent as GithubLogo} from "../../assets/svg/github.svg";
-import {ReactComponent as DiscordLogo} from "../../assets/svg/discord.svg";
+import {ReactComponent as TelegramLogo} from "../../assets/svg/telegram.svg";
 import {ReactComponent as TwitterLogo} from "../../assets/svg/twitter.svg";
 import {ReactComponent as MediumLogo} from "../../assets/svg/medium.svg";
 import {ReactComponent as LinkedInLogo} from "../../assets/svg/linkedin.svg";
@@ -14,13 +14,13 @@ import SvgIcon, {SvgIconProps} from "@mui/material/SvgIcon";
 import {ReactComponent as LogoIcon} from "../../assets/svg/aptos-foundation_logo_mark.svg";
 
 const socialLinks = [
-  {title: "Git", url: "https://github.com/aptos-labs", icon: GithubLogo},
-  {title: "Discord", url: "https://discord.gg/zTDYBEud7U", icon: DiscordLogo},
-  {title: "Twitter", url: "https://twitter.com/aptoslabs/", icon: TwitterLogo},
-  {title: "Medium", url: "https://aptoslabs.medium.com/", icon: MediumLogo},
+  {title: "Git", url: "https://github.com/bitindi", icon: GithubLogo},
+  {title: "Telegram", url: "https://t.me/bitindichain", icon: TelegramLogo},
+  {title: "Twitter", url: "https://twitter.com/bitindichain/", icon: TwitterLogo},
+  {title: "Medium", url: "https://bitindi.medium.com/", icon: MediumLogo},
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/company/aptoslabs/",
+    url: "https://www.linkedin.com/company/bitindi/",
     icon: LinkedInLogo,
   },
 ];
@@ -48,9 +48,9 @@ export default function Footer() {
           <Grid>
             <Link
               color="inherit"
-              href="https://aptoslabs.com/"
+              href="https://bitindi.com/"
               target="_blank"
-              title="Aptos Foundation"
+              title="Bitindi Foundation"
               sx={{display: "block", width: "3rem"}}
             >
               <LogoIcon />
@@ -63,7 +63,7 @@ export default function Footer() {
             >
               © {new Date().getFullYear()}{" "}
               <Box component="span" sx={{whiteSpace: "nowrap"}}>
-                Aptos Foundation
+                Bitindi Foundation
               </Box>
             </Typography>
           </Grid>
