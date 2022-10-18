@@ -11,7 +11,7 @@ export function HomePageHeader() {
         <Grid item xs={12} sm={6}>
           <HeadingSub>Network</HeadingSub>
           <Typography variant="h1" component="h1" gutterBottom>
-            Aptos Governance
+            Bitindi Governance
           </Typography>
         </Grid>
         <Hidden smDown>
