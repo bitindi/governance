@@ -95,7 +95,7 @@ export function Instructions({onVoteProposalButtonClick}: InstructionsProps) {
         <Grid item sm={4} lg={3}>
           <CardBox
             title="01/ Install"
-            content="Download and Install Petra (Aptos Wallet) on Chrome"
+            content="Download and Install Bitindi Wallet on Chrome"
           >
             <Button
               component={Link}
