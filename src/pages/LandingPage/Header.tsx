@@ -18,14 +18,14 @@ export const Header = ({onVoteProposalButtonClick}: HeaderProps) => {
         >
           <Grid item xs={12} sm={6}>
             <Typography variant="h6">
-              Welcome to Aptos Governance. Here you can view and vote on the
+              Welcome to Bitindi Governance. Here you can view and vote on the
               proposals.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6}>
             <Typography variant="body1" mb={4}>
               To view proposals, click the View Proposals below. To vote on a
-              proposal, install Petra (Aptos Wallet), connect to the wallet and
+              proposal, install Bitindi Wallet, connect to the wallet and
               begin voting on any proposal. You can vote on multiple proposals.
             </Typography>
             <Box justifyContent="center">
