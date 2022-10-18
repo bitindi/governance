@@ -119,7 +119,7 @@ export const WalletButton = (): JSX.Element => {
       <Tooltip
         title={
           <Link href={installWalletUrl} target="_blank">
-            Please install the Aptos wallet
+            Please install the Bitindi wallet
           </Link>
         }
       >
