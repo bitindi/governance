@@ -1,4 +1,4 @@
-# Aptos Governance
+# Bitindi Governance
 
 ## How to use
 
